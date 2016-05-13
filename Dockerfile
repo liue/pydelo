@@ -6,4 +6,5 @@ WORKDIR /code
 COPY . /code
 EXPOSE 9998
 
+CMD ["python", "/code/init.py"]
 CMD ["python", "/code/manage.py"]
