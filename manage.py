@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-__author__ = 'Rocky Peng'
+__author__ = 'root'
 
 from web import app
 
