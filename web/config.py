@@ -6,7 +6,7 @@ DEBUG = True
 PORT = 9998
 
 # -- mysql config --
-DB_HOST = "127.0.0.1"
+DB_HOST = "192.168.10.216"
 DB_PORT = 3306
 DB_USER = "root"
 DB_PASS = "root"

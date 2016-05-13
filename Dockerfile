@@ -4,6 +4,6 @@ RUN pip install -r /tmp/requirements.txt
 RUN mkdir /code
 WORKDIR /code
 COPY . /code
-EXPOSE 8000
+EXPOSE 9998
 
 CMD ["python", "/code/manage.py"]
