@@ -9,7 +9,7 @@ PORT = 9998
 DB_HOST = "127.0.0.1"
 DB_PORT = 3306
 DB_USER = "root"
-DB_PASS = "abc$#@!8008CBA"
+DB_PASS = "root"
 DB_NAME = "pydelo"
 
 # -- web app config --
