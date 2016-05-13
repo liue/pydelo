@@ -6,4 +6,4 @@ WORKDIR /code
 COPY . /code
 EXPOSE 8000
 
-CMD ["python", "/src/manage.py"]
+CMD ["python", "/code/manage.py"]
