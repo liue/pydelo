@@ -6,12 +6,12 @@ web:
     - mysql:mysql
     - redis:redis
   env_file: .env
-#  command: /code/manage.py runserver 0.0.0.0:8000
+#  command: /code/manage.py
 
 mysql:
   image: daocloud.io/mysql:latest
   environment:
-    - MYSQL_DATABASE=django
+    - MYSQL_DATABASE=pydelo
     - MYSQL_ROOT_PASSWORD=mysql
   ports:
     - "3306:3306"
